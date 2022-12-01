@@ -14,11 +14,11 @@ left, right = st.columns(2)
 with left:
     with st.echo():
         st.title("DOG")
-        raw_html = """<img src="./app/static/dog.jpg"> </br>"""
+        raw_html = """<img src="./app/static/dog.jpg"></br>"""
         st.markdown(raw_html, unsafe_allow_html=True)
 
 with right:
     with st.echo():
         st.title("CAT")
 
-        st.markdown("[![Click me](app/static/cat.png)](https://youtu.be/dQw4w9WgXcQ)")
+        st.markdown("[![Click me](app/static/cat.png)](https://streamlit.io)")
