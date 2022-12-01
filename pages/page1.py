@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.write("PAGE!")
+st.title("PAGE 1")
 
 
-st.download_button("AAAA", "BBBBB")
+raw_html = """<img src="./app/static/Parrot.jpg"> </br></br></br>"""
+st.markdown(raw_html, unsafe_allow_html=True)
