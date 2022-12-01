@@ -20,4 +20,5 @@ with left:
 with right:
     with st.echo():
         st.title("CAT")
+
         st.markdown("[![Click me](app/static/cat.png)](https://youtu.be/dQw4w9WgXcQ)")
