@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.write("PAGE!!")
+st.title("PAGE2")
