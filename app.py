@@ -6,7 +6,7 @@ st.set_page_config(
 
 st.title("Static demo app")
 
-x = st.slider("AAAA", 0, 100, 50)
+x = st.slider("Slider label", 0, 100, 50, label_visibility="collapsed")
 st.write(x**2)
 
 left, right = st.columns(2)
@@ -14,7 +14,7 @@ left, right = st.columns(2)
 with left:
     with st.echo():
         st.title("DOG")
-        raw_html = """<img src="./app/static/dog.jpg"></br>"""
+        raw_html = """<img src="./app/static/dog.jpg" height="333"></br>"""
         st.markdown(raw_html, unsafe_allow_html=True)
 
 with right:
